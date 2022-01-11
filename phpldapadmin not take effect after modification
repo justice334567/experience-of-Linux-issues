@@ -1,1 +1,3 @@
-
+When I add new ldap server or delete old one in config.php, find some ldap server not able to be connected.
+Checked log in ldap server, find phpldapadmin not use correct base for the bind operation.
+after remove php session logs under /var/lib/php7 in SUSE, issue disappear. 
